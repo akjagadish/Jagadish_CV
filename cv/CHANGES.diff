@@ -1,0 +1,617 @@
+diff -u '--exclude=[123]_*' cv_orig/conference_proceedings.tex cv/conference_proceedings.tex
+--- cv_orig/conference_proceedings.tex	2026-09-15 06:16:56.733667041 +0000
++++ cv/conference_proceedings.tex	2026-09-15 06:17:56.774058452 +0000
+@@ -20,14 +20,14 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  Chandramouli, S., Kachergis, G., \textbf{Jagadish, A. K.} (2026). Automated Adversarial Collaboration for Advancing Theory Building in the Cognitive Sciences. {In the 9th Annual Conference Cognitive Computational Neuroscience}\\
++  Chandramouli, S., Kachergis, G., \& \textbf{Jagadish, A. K.} (2026). Automated Adversarial Collaboration for Advancing Theory Building in the Cognitive Sciences. {In the 9th Annual Conference on Cognitive Computational Neuroscience (CCN)}\\
+   \href{https://arxiv.org/pdf/2604.25521}{[PDF]}
+   \end{cvitems}}
+ 
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Xie, H., \textbf{Jagadish, A. K.}, Pan, L., Wilson, R. C. (2026). Think-Aloud Reshapes Automated Cognitive Model Discovery Beyond Behavior. {In the 9th Annual Conference Cognitive Computational Neuroscience}\\
++   Xie, H., \textbf{Jagadish, A. K.}, Pan, L., \& Wilson, R. C. (2026). Think-Aloud Reshapes Automated Cognitive Model Discovery Beyond Behavior. {In the 9th Annual Conference on Cognitive Computational Neuroscience (CCN)}\\
+   \href{https://arxiv.org/pdf/2605.05091}{[PDF]}
+   \end{cvitems}}
+  
+@@ -62,7 +62,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M. \& Schulz, E. Bounded ecologically rational meta-learned inference explains human category learning. (2025). \\
++  \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M., \& Schulz, E. (2025). Bounded ecologically rational meta-learned inference explains human category learning. \\
+   {Proceedings of the Annual Meeting of the Cognitive Science Society}
+   \href{https://escholarship.org/uc/item/7k85s0j0}{[PDF]}
+   \end{cvitems}}
+@@ -80,7 +80,7 @@
+   \cventryPub{
+   \begin{cvitems}
+   \textbf{Jagadish, A. K.}, Saanum, T., Wang, J. X., Binz, M., \& Schulz, E. (2022). Probing compositional inference in natural and artificial agents. 
+-  {In 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM)}
++  {In the 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM)}
+   \end{cvitems}}
+   %---------------------------------------------------------
+   %\\[0.35cm]
+diff -u '--exclude=[123]_*' cv_orig/cv.tex cv/cv.tex
+--- cv_orig/cv.tex	2026-09-15 06:16:56.829667044 +0000
++++ cv/cv.tex	2026-09-15 06:17:56.767663509 +0000
+@@ -68,7 +68,7 @@
+ % \skype{skype-id}
+ % \reddit{reddit-id}
+ % \medium{madium-id}
+-\googlescholar{B42Mr-sAAAAJ&hl}{Scholar}
++\googlescholar{B42Mr-sAAAAJ}{Scholar}
+ %% \firstname and \lastname will be used
+ % \googlescholar{googlescholar-id}{}
+ % \extrainfo{extra informations}
+diff -u '--exclude=[123]_*' cv_orig/education.tex cv/education.tex
+--- cv_orig/education.tex	2026-09-15 06:16:56.929667047 +0000
++++ cv/education.tex	2026-09-15 06:17:56.768124438 +0000
+@@ -33,7 +33,7 @@
+ %---------------------------------------------------------
+ \cventryLab
+     {B.Tech.  in Electrical and Electronics Engineering} % degree
+-    {National Institute of Technology Karnataka ~·~ Ecole Polytechnique Federale de Lausanne} % institution
++    {National Institute of Technology Karnataka ~·~ École Polytechnique Fédérale de Lausanne} % institution
+     {Structural and Functional Correlates of Personality}
+     {Surathkal, India} % Location
+     {2013 - 2017} % Date(s)
+diff -u '--exclude=[123]_*' cv_orig/experience.tex cv/experience.tex
+--- cv_orig/experience.tex	2026-09-15 06:16:57.017667050 +0000
++++ cv/experience.tex	2026-09-15 06:17:56.768461052 +0000
+@@ -60,14 +60,14 @@
+     {}
+    \cventryLab
+     {Postbaccalaureate Research Assistant} % Position
+-    {University of Minnesota, Twin-cities} % Institution line 1
++    {University of Minnesota, Twin Cities} % Institution line 1
+     {Computational Visual Neuroscience Lab ~·~ Advisor: Prof. Kendrick Kay} % Institution line 2
+     {Minnesota, USA} % Location
+     {Jul. 2017 - Feb. 2018} % Date(s)
+     {}
+    \cventryLab
+     {Undergraduate Thesis} % Position
+-    {Ecole Polytechnique Federale de Lausanne} % Institution line 1
++    {École Polytechnique Fédérale de Lausanne} % Institution line 1
+     {Medical Image Processing Lab ~·~ Advisors: Prof. D. van de Ville and Prof. P. Giannakopoulos} % Institution line 2  Dr Djalel Meskaldji, Prof. Sven Haller, 
+     {Lausanne, Switzerland} % Location
+     {Aug. 2016 - May 2017} % Date(s)
+diff -u '--exclude=[123]_*' cv_orig/funding.tex cv/funding.tex
+--- cv_orig/funding.tex	2026-09-15 06:16:57.121667053 +0000
++++ cv/funding.tex	2026-09-15 06:17:56.770317774 +0000
+@@ -11,7 +11,7 @@
+   %---------------------------------------------------------
+     \cvhonor
+     {Peretsman-Scully Postdoctoral Fellowship} % Award
+-    {Generous funding of \$300k in total salary and \$30k research funds from Scully Peretsman Foundation for period of three years to carry out independent research at the Princeton AI Lab.} % Event
++    {Funding of \$300k in total salary and \$30k research funds from the Scully Peretsman Foundation for a period of three years to carry out independent research at the Princeton AI Lab.} % Event
+     {USA} % Location
+     {2025} % Date(s)
+ 
+@@ -25,21 +25,21 @@
+   %---------------------------------------------------------
+     \cvhonor
+     {Max Planck Society Scholarship} % Award
+-    {Generous funding of \euro{11k} from the Max Planck Society to undertake Master's study in Computational Neuroscience.} % Event
++    {Funding of \euro{11k} from the Max Planck Society to undertake Master's study in Computational Neuroscience.} % Event
+     {Germany} % Location
+     {2018} % Date(s)
+ 
+   %---------------------------------------------------------
+   \cvhonor
+     {Summer Research Program} % Award
+-    {Generous funding of \$10k from EPFL to undertake an internship for a duration of three months. } % Event
++    {Funding of \$10k from EPFL to undertake an internship for a duration of three months. } % Event
+     {Switzerland} % Location
+     {2016} % Date(s)
+ 
+   %---------------------------------------------------------
+   \cvhonor
+     {Summer Research Fellowship Program} % Award
+-    {Stipend of ~\$150 dollars from the Indian Academy of Sciences to undertake an internship at the Indian Institute of Science, Bengaluru for a duration of two months.} % Event
++    {Stipend of \$150 from the Indian Academy of Sciences to undertake an internship at the Indian Institute of Science, Bengaluru for a duration of two months.} % Event
+     {India} % Location
+     {2016} % Date(s)
+ 
+diff -u '--exclude=[123]_*' cv_orig/honors.tex cv/honors.tex
+--- cv_orig/honors.tex	2026-09-15 06:16:57.205667055 +0000
++++ cv/honors.tex	2026-09-15 06:17:56.769706726 +0000
+@@ -17,19 +17,19 @@
+ 
+     \cvhonor
+     {Top Reviewer} % Award
+-    {Top 10 \% reviewer (main track) for International Conference for Learning Representations} % Event
+-    {USA} % Location
++    {Top 10\% reviewer (main track) for International Conference on Learning Representations (ICLR)} % Event
++    {Brazil} % Location
+     {2026} % Date(s)
+   %---------------------------------------------------------
+     \cvhonor
+     {NatGeo Storyteller} % Award
+-    {Top 12 members selected to participate in National Geography Story Tellers Workshop} % Event
++    {Top 12 members selected to participate in National Geographic Storytellers Workshop} % Event
+     {USA} % Location
+     {2026} % Date(s)
+   %---------------------------------------------------------
+     \cvhonor
+     {Top Reviewer} % Award
+-    {Top 10 \% reviewer (main track) for Neural Information Processing Systems (NeurIPS)} % Event
++    {Top 10\% reviewer (main track) for Neural Information Processing Systems (NeurIPS)} % Event
+     {USA} % Location
+     {2025} % Date(s)
+ 
+@@ -43,7 +43,7 @@
+ 
+       %---------------------------------------------------------
+     \cvhonor
+-    {Ph.D. with Magna cum Laude} % Award
++    {Ph.D. magna cum laude} % Award
+     {for exceptional research conducted during doctoral studies} % Event
+     {Germany} % Location
+     {2025} % Date(s)
+@@ -52,7 +52,7 @@
+   %---------------------------------------------------------
+     \cvhonor
+     {Top Reviewer} % Award
+-    {Top 10 \% reviewer (main track) for Neural Information Processing Systems (NeurIPS)} % Event
++    {Top 10\% reviewer (main track) for Neural Information Processing Systems (NeurIPS)} % Event
+     {Canada} % Location
+     {2024} % Date(s)
+ 
+@@ -101,7 +101,7 @@
+ %---------------------------------------------------------
+     \cvhonor
+     {Max Planck Society Scholarship} % Award
+-    {Top 5 students selected to undertake M.Sc in Computational Neuroscience at the University of Tübingen.} % Event
++    {Top 5 students selected to undertake M.Sc. in Computational Neuroscience at the University of Tübingen.} % Event
+     {Germany} % Location
+     {2018} % Date(s)
+ %---------------------------------------------------------
+@@ -120,7 +120,7 @@
+ %---------------------------------------------------------
+   \cvhonor
+     {Summer Research Fellowship Program} % Award
+-    {Top 10 \% students funded to conduct research at the Indian Institute of Science.} % Event
++    {Top 10\% students funded to conduct research at the Indian Institute of Science.} % Event
+     {India} % Location
+     {2016} % Date(s)
+ 
+diff -u '--exclude=[123]_*' cv_orig/organization.tex cv/organization.tex
+--- cv_orig/organization.tex	2026-09-15 06:16:57.293667058 +0000
++++ cv/organization.tex	2026-09-15 06:17:56.775818659 +0000
+@@ -11,20 +11,20 @@
+ %---------------------------------------------------------
+   \cvhonor
+     {Co-organizer} % Award
+-    {Workshop on ``AI for scientific discovery" at the Diverse Intelligences workshop series} % Event
++    {Workshop on ``AI for Scientific Discovery'' at the Diverse Intelligences workshop series} % Event
+     {Princeton} % Location
+     {2026} % Date(s) 
+ 
+     
+   \cvhonor
+     {Co-organizer} % Award
+-    {``Connecting Minds and Machines a Foundation Model Approach to Learning" symposium at Helmholtz Pioneer Campus, Munich} % Event
++    {``Connecting Minds and Machines: a Foundation Model Approach to Learning'' symposium at Helmholtz Pioneer Campus, Munich} % Event
+     {Germany} % Location
+     {2024} % Date(s) 
+     
+   \cvhonor
+     {Co-organizer} % Award
+-    {``In-context learning in natural and artificial intelligence" workshop at CogSci-2024} % Event
++    {``In-context learning in natural and artificial intelligence'' workshop at CogSci 2024} % Event
+     {Netherlands} % Location
+     {2024} % Date(s) 
+     
+@@ -36,22 +36,22 @@
+ 
+     \cvhonor
+     {Co-organizer} % Award
+-    {Computation and Cognitive Tübingen Summer School (\href{https://www.projects.tuebingen.mpg.de/}{CaCTüS}) aimed specifically at young scientists held back by personal, financial, regional or societal constraints.} % Event
++    {Computation and Cognition Tübingen Summer Internship (\href{https://www.projects.tuebingen.mpg.de/}{CaCTüS}) aimed specifically at young scientists held back by personal, financial, regional or societal constraints.} % Event
+     {Germany} % Location
+     {2022} % Date(s) 
+ 
+ 
+     \cvhonor
++    {Volunteer} % Award
++    {Machine Learning Summer School (MLSS) held at MPI for Intelligent Systems, Tübingen} % Event
++    {Germany} % Location
++    {2020} % Date(s) 
++    \cvhonor
+     {Co-organizer} % Award
+     {``Causality in Neuroscience'' Workshop at \href{https://nenaconference.wordpress.com/wp-content/uploads/2019/10/schedule_nena2019.pdf}{Neuroscience Conference for Young Scientists}} % Event
+     {Germany} % Location
+     {2019} % Date(s)
+ 
+-    \cvhonor
+-    {Volunteer} % Award
+-    {Machine Learning Summer School (MLSS) held at MPI for Intelligent Systems, Tübingen} % Event
+-    {Germany} % Location
+-    {2020} % Date(s) 
+     \vspace{3mm}
+ %---------------------------------------------------------
+ \end{cvhonors}
+diff -u '--exclude=[123]_*' cv_orig/position.tex cv/position.tex
+--- cv_orig/position.tex	2026-09-15 06:16:57.421667061 +0000
++++ cv/position.tex	2026-09-15 06:17:56.767935573 +0000
+@@ -19,14 +19,14 @@
+ \cventryLab
+ {Peretsman-Scully Postdoctoral Fellow} % Degree
+ {Princeton University} % Institution
+-{Independent researcher in the Natural and Artificial Minds program at the Princeton AI Lab Mentors: Prof. Tom Griffiths, Prof. Nathaniel Daw and Prof. Brenden Lake}
++{Independent researcher in the Natural and Artificial Minds program at the Princeton AI Lab ~·~ Mentors: Prof. Tom Griffiths, Prof. Nathaniel Daw, and Prof. Brenden Lake}
+ {Princeton, USA} % Location
+ {Aug. 2025 - ongoing} % Date(s)
+ {}
+ % \cventryLab
+ % {Peretsman Scully Postdoctoral Fellow} % Degree
+ % {Princeton University} % Institution
+-% {Independent researcher in the Natural and Artificial Minds program at the Princeton AI Lab Mentors: Prof. Tom Griffiths, Prof. Nathaniel Daw and Prof. Brenden Lake}
++% {Independent researcher in the Natural and Artificial Minds program at the Princeton AI Lab ~·~ Mentors: Prof. Tom Griffiths, Prof. Nathaniel Daw, and Prof. Brenden Lake}
+ % {Princeton, USA} % Location
+ % {2025 - ongoing} % Date(s)
+ % {}
+diff -u '--exclude=[123]_*' cv_orig/press.tex cv/press.tex
+--- cv_orig/press.tex	2026-09-15 06:16:57.577667066 +0000
++++ cv/press.tex	2026-09-15 06:17:56.774892610 +0000
+@@ -12,19 +12,19 @@
+ 
+     \cvhonor
+     {New York Times} % Award
+-    {An opinion piece called \textit{"Scientists Use A.I. to Mimic the Mind, Warts and All"} on our article A foundation model to predict and capture human cognition [\href{https://www.nytimes.com/2025/07/02/science/ai-psychology-mind.html}{URL}]} % Event
++    {An opinion piece called \textit{“Scientists Use A.I. to Mimic the Mind, Warts and All”} on our article A foundation model to predict and capture human cognition [\href{https://www.nytimes.com/2025/07/02/science/ai-psychology-mind.html}{URL}]} % Event
+     {AoE} % Location
+     {2025} % Date(s) 
+ 
+    \cvhonor
+     {New York Times} % Award
+-    {A science-education piece called \textit{"Digital Therapists Get Stressed Too, Study Finds"} on our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{http://www.nytimes.com/2025/03/17/science/chatgpt-digital-therapists-anxiety.html}{URL}]} % Event
++    {A science-education piece called \textit{“Digital Therapists Get Stressed Too, Study Finds”} on our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{https://www.nytimes.com/2025/03/17/science/chatgpt-digital-therapists-anxiety.html}{URL}]} % Event
+     {AoE} % Location
+     {2025} % Date(s) 
+ 
+    \cvhonor
+     {Fortune Magazine} % Award
+-    {Interview to discuss our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{https://fortune.com/2025/03/09/openai-chatgpt-anxiety-mindfulness-mental-health-intervention/?abc123}{URL}]} % Event
++    {Interview to discuss our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{https://fortune.com/2025/03/09/openai-chatgpt-anxiety-mindfulness-mental-health-intervention/}{URL}]} % Event
+     {AoE} % Location
+     {2025} % Date(s) 
+     
+@@ -36,7 +36,7 @@
+ 
+ \cvhonor
+     {Tagesspiegel} % Award
+-    {An accessible article in German called \textit{"How does ChatGPT “think”?: A chatbot goes to a psychologist"} on our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{https://www.tagesspiegel.de/wissen/wie-denkt-chatgpt-geht-ein-chatbot-zum-psychologen-11726375.html}{URL}]} % Event
++    {An accessible article in German called \textit{“How does ChatGPT ‘think’?: A chatbot goes to a psychologist”} on our article “Chat-GPT on the Couch”: Assessing and Alleviating State Anxiety in Large Language Models [\href{https://www.tagesspiegel.de/wissen/wie-denkt-chatgpt-geht-ein-chatbot-zum-psychologen-11726375.html}{URL}]} % Event
+     {AoE} % Location
+     {2024} % Date(s) 
+     \vspace{3mm}
+diff -u '--exclude=[123]_*' cv_orig/publications.tex cv/publications.tex
+--- cv_orig/publications.tex	2026-09-15 06:16:57.681667069 +0000
++++ cv/publications.tex	2026-09-15 06:17:56.773261929 +0000
+@@ -21,7 +21,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}, Witte, K., Mathony, M., Binz, M., \& Schulz, E. (2026). Toward a automated science of the mind  {Neuron}\\
++  \textbf{Jagadish, A. K.}, Witte, K., Mathony, M., Binz, M., \& Schulz, E. (2026). Toward an automated science of the mind. {Neuron}\\
+   \href{https://arxiv.org/abs/2603.20988}{[PDF]}
+   \end{cvitems}}
+ 
+@@ -39,7 +39,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Cohen, Z.$^*$, \textbf{Jagadish, A. K.}$^*$, Hosseini, E.$^*$, \& Eckstein, M. (2025). Reinforcement learning: computational modeling of learning and decision-making \\
++   Cohen, Z.$^*$, \textbf{Jagadish, A. K.}$^*$, Hosseini, E.$^*$, \& Eckstein, M. (2025). Reinforcement learning: computational modeling of learning and decision-making. \\
+   {Lecture Notes of the Analytical Connectionism Summer School 2023 and 2024. Proceedings of Machine Learning Research (PMLR)}
+   \href{https://proceedings.mlr.press/v320/cohen26a.html}{[PDF]}
+   \end{cvitems}}
+@@ -95,7 +95,7 @@
+   \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Binz, M.,  Dasgupta, I., \textbf{Jagadish, A. K.}, Botvinick, M., Wang, J.X., \& Schulz, E. (2023). Meta-learned models of cognition.  \hfill \break
++   Binz, M.,  Dasgupta, I., \textbf{Jagadish, A. K.}, Botvinick, M., Wang, J. X., \& Schulz, E. (2023). Meta-learned models of cognition.  \hfill \break
+   {Behavioral and Brain Sciences}
+   \href{https://arxiv.org/abs/2304.06729}{[PDF]}
+   \end{cvitems}}
+@@ -124,7 +124,7 @@
+   
+   \cventryPub{
+   \begin{cvitems}
+-  Rodriguez, C.$^*$, \textbf{Jagadish, A. K.}$^*$, Meskaldji, D. E., Haller, S., Herrmann, F., Van De Ville, D., \& Giannakopoulos, P. (2019). Structural correlates of personality dimensions in healthy aging and MCI. {Frontiers in psychology}
++  Rodriguez, C.$^*$, \textbf{Jagadish, A. K.}$^*$, Meskaldji, D. E., Haller, S., Herrmann, F., Van De Ville, D., \& Giannakopoulos, P. (2019). Structural correlates of personality dimensions in healthy aging and MCI. {Frontiers in Psychology}
+   \href{https://doi.org/10.3389/fpsyg.2018.02652}{[PDF]}
+   \end{cvitems}}
+ %   %---------------------------------------------------------
+@@ -138,7 +138,7 @@
+   \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}, Goswami, S., Saha, P., Chakrabarty, S., \& Rajgopal, K. (2016). Artificial Bee Colony (ABC) based variable density sampling scheme for CS-MRI. In 2016 {IEEE Region 10 Conference (TENCON)}
++  \textbf{Jagadish, A. K.}, Goswami, S., Saha, P., Chakrabarty, S., \& Rajgopal, K. (2016). Artificial Bee Colony (ABC) based variable density sampling scheme for CS-MRI. {In 2016 IEEE Region 10 Conference (TENCON)}
+   \href{https://doi.org/10.1109/TENCON.2016.7848212}{[PDF]}
+   \end{cvitems}}
+ \vspace{3mm}
+diff -u '--exclude=[123]_*' cv_orig/selected_publications.tex cv/selected_publications.tex
+--- cv_orig/selected_publications.tex	2026-09-15 06:16:57.781667072 +0000
++++ cv/selected_publications.tex	2026-09-15 06:17:56.771171579 +0000
+@@ -26,7 +26,7 @@
+   \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Binz, M.,  Dasgupta, I., \textbf{Jagadish, A. K.}, Botvinick, M., Wang, J.X., \& Schulz, E. (2023). Meta-learned models of cognition.  \hfill \break
++   Binz, M.,  Dasgupta, I., \textbf{Jagadish, A. K.}, Botvinick, M., Wang, J. X., \& Schulz, E. (2023). Meta-learned models of cognition.  \hfill \break
+   {Behavioral and Brain Sciences}
+   \href{https://arxiv.org/abs/2304.06729}{[PDF]}
+   \end{cvitems}}
+@@ -37,7 +37,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M. \& Schulz, E. (2025). Meta-learning ecological priors from large language models captures human learning and decision making. \\
++   \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M., \& Schulz, E. (2025). Meta-learning ecological priors from large language models captures human learning and decision making. \\
+   {Preprint}
+   \href{https://arxiv.org/abs/2509.00116}{[PDF]}
+   \end{cvitems}}
+@@ -95,7 +95,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}*, Strittmatter, Y.*,  Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. (2026). Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist. {Preprint}\\
++  \textbf{Jagadish, A. K.}$^*$, Strittmatter, Y.$^*$, Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. L. (2026). Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist. {Preprint}\\
+   \href{https://arxiv.org/abs/2606.26448}{[PDF]}
+   \end{cvitems}}
+ 
+@@ -104,7 +104,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}*, Strittmatter, Y.*,  Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. (2026). Sparks of In Silico Cognitive Science: Theories from Simulated Data Can Generalize to Humans. {Preprint}\\
++  \textbf{Jagadish, A. K.}$^*$, Strittmatter, Y.$^*$, Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. L. (2026). Sparks of In Silico Cognitive Science: Theories from Simulated Data Can Generalize to Humans. {Preprint}\\
+   \href{https://arxiv.org/pdf/2609.08003}{[PDF]}
+   \end{cvitems}}
+ 
+@@ -148,7 +148,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Zhang, L., \textbf{Jagadish, A. K.}, Lake, B., \& Griffiths, T. (2026). Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models. {Preprint}\\
++   Zhang, L., \textbf{Jagadish, A. K.}, Lake, B. M., \& Griffiths, T. L. (2026). Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models. {Preprint}\\
+   \href{https://arxiv.org/pdf/2606.09856}{[PDF]}
+   \end{cvitems}}
+ 
+diff -u '--exclude=[123]_*' cv_orig/service.tex cv/service.tex
+--- cv_orig/service.tex	2026-09-15 06:16:57.917667076 +0000
++++ cv/service.tex	2026-09-15 06:17:56.775969748 +0000
+@@ -21,7 +21,7 @@
+     % {2025-} % Date(s) 
+ \cvhonor
+     {Reviewer} % Award
+-    {Psychology Reviews} % Event
++    {Psychological Review} % Event
+     {AoE} % Location
+     {2026-} % Date(s) 
+     
+diff -u '--exclude=[123]_*' cv_orig/supervison.tex cv/supervison.tex
+--- cv_orig/supervison.tex	2026-09-15 06:16:58.069667081 +0000
++++ cv/supervison.tex	2026-09-15 06:17:56.779644747 +0000
+@@ -11,7 +11,7 @@
+ %---------------------------------------------------------
+   \cvhonor
+     {Samuel Schapiro} % Award
+-    {Research Project on ``Measuring Combinatorial Creativity in Large Language Models and Humans'' at the University of Chicago. 
++    {Research project on ``Measuring Combinatorial Creativity in Large Language Models and Humans'' at the University of Chicago. 
+     % The broad research program is examine why current large language models can't jump.
+     } % Event
+     {USA}  % Location
+@@ -30,61 +30,61 @@
+   \cvhonor
+     {Lan Pan} % Award
+     {Research project on ``AI-agent driven discovery on large-scale psychology datasets'' at the University of Osnabrück. Released to the public on GitHub \href{https://github.com/scale-cogsci/psyche-agent.git}{[URL]}} % Event
+-    {USA}  % Location
++    {Germany}  % Location
+     {2026} % Date(s) 
+     
+   \cvhonor
+     {Hanbo Xie} % Award
+     {Doctoral research project on ``Think-Aloud Reshapes Automated Cognitive Model Discovery Beyond Behavior'' at the Georgia Institute of Technology. % Event
+-    Led to a publication at the Computational Cognitive Neuroscience Conference \href{https://arxiv.org/pdf/2605.05091}{[PDF]}}
++    Led to a publication at the Conference on Cognitive Computational Neuroscience (CCN) \href{https://arxiv.org/pdf/2605.05091}{[PDF]}}
+     {USA} % Location
+     {2026} % Date(s) 
+     
+   \cvhonor
+     {Jerry Han} % Award
+-    {Bachelor research project on universal preconditioning aids human function learning at the Princeton University} % Event
++    {Bachelor research project on ``Universal preconditioning aids human function learning'' at Princeton University} % Event
+     {USA} % Location
+     {2026} % Date(s) 
+ 
+   \cvhonor
+     {Alex Kawaja} % Award
+-    {Bachelor research project on universal preconditioning aids human function learning at the Princeton University} % Event
++    {Bachelor research project on ``Universal preconditioning aids human function learning'' at Princeton University} % Event
+     {USA} % Location
+     {2026} % Date(s) 
+     
+   \cvhonor
+     {Liyi Zhang} % Award
+-    {Doctoral research project on ``Distilling inductive reasoning into LLMs'' at the Princeton University. Led to a preprint on Arxiv \href{https://arxiv.org/pdf/2606.09856}{[PDF]}} % Event
++    {Doctoral research project on ``Distilling inductive reasoning into LLMs'' at Princeton University. Led to a preprint on arXiv \href{https://arxiv.org/pdf/2606.09856}{[PDF]}} % Event
+     {USA} % Location
+     {2025} % Date(s) 
+ 
+   \cvhonor
+     {Solim Legris} % Award
+-    {Doctoral research project on ``Neuro-symbolic models for ARC benchmark'' at the New York University.} % Event
++    {Doctoral research project on ``Neuro-symbolic models for ARC benchmark'' at New York University.} % Event
+     {USA} % Location
+     {2025} % Date(s) 
+ 
+       \cvhonor
+     {Younes Strittmatter} % Award
+-    {Doctoral research project on ``Pipeline for Systematic Curation of Human Experiments'' at the Princeton University. Led to an abstract in the Cognitive Science Conference \href{https://drive.google.com/file/d/1fIvK43MxyiOtc13B7JDwyvzfzIulutVA/view?usp=sharing}{[PDF]}. Released to the public on HuggingFace  \href{https://huggingface.co/psyche-org}{[URL]}} % Event
++    {Doctoral research project on ``Pipeline for Systematic Curation of Human Experiments'' at Princeton University. Led to an abstract in the Cognitive Science Conference \href{https://drive.google.com/file/d/1fIvK43MxyiOtc13B7JDwyvzfzIulutVA/view?usp=sharing}{[PDF]}. Released to the public on HuggingFace  \href{https://huggingface.co/psyche-org}{[URL]}} % Event
+     {USA} % Location
+     {2025} % Date(s) 
+ 
+     \cvhonor
+     {Daniel Braga} % Award
+-    {Master research project on ``Automated representational structure discovery'' at the Princeton University. Led to a publication in the Cognitive Science Conference  \href{https://drive.google.com/file/d/1NQ0tgUqLk8KDsJfXqCQgLiGnnDbjQ50X/view?usp=sharing}{[PDF]}} % Event
++    {Master research project on ``Automated representational structure discovery'' at Princeton University. Led to a publication in the Cognitive Science Conference  \href{https://drive.google.com/file/d/1NQ0tgUqLk8KDsJfXqCQgLiGnnDbjQ50X/view?usp=sharing}{[PDF]}} % Event
+     {USA} % Location
+     {2025} % Date(s) 
+     
+   \cvhonor
+     {Elif Kara} % Award
+-    {Master research project on ``Human decision-making in the wild'' at the University of Münich. } % Event
++    {Master research project on ``Human decision-making in the wild'' at the University of Munich.} % Event
+     {Germany} % Location
+     {2024} % Date(s) 
+ 
+   \cvhonor
+     {Johannes Schubert} % Award
+-    {Master thesis on ``Rational Analysis of Optimism Bias" at the University of Tübingen. Led to a publication at the \textit{International Conference on Machine Learning (ICML)}  \href{https://arxiv.org/pdf/2402.01821.pdf}{[PDF]}} % Event
++    {Master thesis on ``Rational Analysis of Optimism Bias'' at the University of Tübingen. Led to a publication at the \textit{International Conference on Machine Learning (ICML)} \href{https://arxiv.org/pdf/2402.03969.pdf}{[PDF]}} % Event
+     {Germany} % Location
+     {2023} % Date(s) 
+     \vspace{3mm}
+diff -u '--exclude=[123]_*' cv_orig/talks.tex cv/talks.tex
+--- cv_orig/talks.tex	2026-09-15 06:16:58.169667083 +0000
++++ cv/talks.tex	2026-09-15 06:17:56.777763603 +0000
+@@ -17,7 +17,7 @@
+ 
+ % %---------------------------------------------------------
+     \cvhonor
+-    {University of California Berkeley} %University
++    {University of California, Berkeley} %University
+     {Cognitive Science Colloquium in the Department of Psychology (Cognitive Area)} 
+     {USA} % Location
+     {2026} % Date(s)
+@@ -43,20 +43,20 @@
+ %---------------------------------------------------------
+     \cvhonor
+     {Diverse Intelligence Summit} %University
+-    {Workshop on  \href{}{“AI for Scientific Discovery”}} 
++    {Workshop on “AI for Scientific Discovery”} 
+     {USA} % Location
+     {2026} % Date(s)
+ % %---------------------------------------------------------
+     \cvhonor
+     {Computational and Systems Neuroscience (COSYNE)} %University
+-    {Workshop on  \href{}{“AI for Interpretable Model Discovery in Neuroscience”}} 
++    {Workshop on “AI for Interpretable Model Discovery in Neuroscience”} 
+     {Portugal} % Location
+     {2026} % Date(s)
+     
+ % %---------------------------------------------------------
+     \cvhonor
+     {Cornell-CUNY-UC Davis} %University
+-    {Cross-lab meeting part of an NSF grant on "Collective behavior in smart environments"} 
++    {Cross-lab meeting part of an NSF grant on “Collective behavior in smart environments”} 
+     {USA} % Location
+     {2025} % Date(s)
+ 
+@@ -64,7 +64,7 @@
+ % %---------------------------------------------------------
+     \cvhonor
+     {New York University} %University
+-    {Concats talk series -- the longest running scientific discussion groups in the Department of Psychology, New York University} 
++    {Concats talk series -- the longest-running scientific discussion group in the Department of Psychology, New York University} 
+     {USA} % Location
+     {2025} % Date(s)
+ 
+@@ -73,7 +73,7 @@
+ % %---------------------------------------------------------
+     \cvhonor
+     {Princeton University} %University
+-    {Natural and Artificial Minds monthly talk series in the the Princeton AI Lab} 
++    {Natural and Artificial Minds monthly talk series in the Princeton AI Lab} 
+     {USA} % Location
+     {2025} % Date(s)
+ 
+@@ -95,7 +95,7 @@
+ % %---------------------------------------------------------
+     \cvhonor
+     {Cognitive Science Conference (CogSci)} %University
+-    {Workshop on “In‑context learning in natural and artificial intelligence” \href{https://jacquespesnot.github.io/2024_CogSci_Workshop/}{[URL]}} 
++    {Workshop on “In-context learning in natural and artificial intelligence” \href{https://jacquespesnot.github.io/2024_CogSci_Workshop/}{[URL]}} 
+     {Netherlands} % Location
+     {2024} % Date(s)
+ 
+@@ -126,7 +126,7 @@
+ 
+ %---------------------------------------------------------
+     \cvhonor
+-    {Helmholtz Münich} %University
++    {Helmholtz Munich} %University
+     {Joint lab retreat with Explainable Machine Learning Lab} 
+     {Germany} % Location
+     {2023} % Date(s)
+diff -u '--exclude=[123]_*' cv_orig/teaching.tex cv/teaching.tex
+--- cv_orig/teaching.tex	2026-09-15 06:16:58.273667087 +0000
++++ cv/teaching.tex	2026-09-15 06:17:56.777915390 +0000
+@@ -30,7 +30,7 @@
+     
+   \cvhonor
+     {Guest Lecture} % Position
+-    {"LLM for cognitive modeling'' at the ''Current Issues in Statistical Methods and Research Practices for Psychological Science''  course at Princeton University} % Event
++    {``LLM for cognitive modeling'' at the ``Current Issues in Statistical Methods and Research Practices for Psychological Science'' course at Princeton University} % Event
+     {USA} % Location
+     {2026} % Date(s)
+     
+diff -u '--exclude=[123]_*' cv_orig/working_papers.tex cv/working_papers.tex
+--- cv_orig/working_papers.tex	2026-09-15 06:16:58.361667089 +0000
++++ cv/working_papers.tex	2026-09-15 06:17:56.772063401 +0000
+@@ -21,7 +21,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}*, Strittmatter, Y.*,  Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. (2026). Sparks of In Silico Cognitive Science: Theories from Simulated Data Can Generalize to Humans. {Preprint}\\
++  \textbf{Jagadish, A. K.}$^*$, Strittmatter, Y.$^*$, Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. L. (2026). Sparks of In Silico Cognitive Science: Theories from Simulated Data Can Generalize to Humans. {Preprint}\\
+   \href{https://arxiv.org/pdf/2609.08003}{[PDF]}
+   \end{cvitems}}
+   
+@@ -36,7 +36,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  \textbf{Jagadish, A. K.}*, Strittmatter, Y.*,  Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. (2026). Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist. {Preprint}\\
++  \textbf{Jagadish, A. K.}$^*$, Strittmatter, Y.$^*$, Jacoby, N., Kachergis, G., Schulz, E., Daw, N., Chandramouli, S. H., \& Griffiths, T. L. (2026). Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist. {Preprint}\\
+   \href{https://arxiv.org/abs/2606.26448}{[PDF]}
+   \end{cvitems}}
+ 
+@@ -44,7 +44,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-   Zhang, L., \textbf{Jagadish, A. K.}, Lake, B., \& Griffiths, T. (2026). Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models. {Preprint}\\
++   Zhang, L., \textbf{Jagadish, A. K.}, Lake, B. M., \& Griffiths, T. L. (2026). Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models. {Preprint}\\
+   \href{https://arxiv.org/pdf/2606.09856}{[PDF]}
+   \end{cvitems}}
+   %---------------------------------------------------------
+@@ -60,7 +60,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+- \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M. \& Schulz, E. (2025). Meta-learning ecological priors from large language models captures human learning and decision making. \\
++ \textbf{Jagadish, A. K.}, Thalmann, M., Coda-Forno, J., Binz, M., \& Schulz, E. (2025). Meta-learning ecological priors from large language models captures human learning and decision making. \\
+   {Preprint}
+   \href{https://arxiv.org/abs/2509.00116}{[PDF]}
+   \end{cvitems}}
+@@ -110,7 +110,7 @@
+    \\[0.35cm]
+   \cventryPub{
+   \begin{cvitems}
+-  Braga, D., Marjieh, R.$^*$, \textbf{Jagadish, A. K.}$^*$, Sucholutsky, I., Jacoby, N., \&  Griffiths, T. L. (2026). [WORKING TITLE] Discovering Psychological Representations using Language Language Models . {In Preparation} \href{}{[PDF Coming soon]}\\
++  Braga, D., Marjieh, R.$^*$, \textbf{Jagadish, A. K.}$^*$, Sucholutsky, I., Jacoby, N., \&  Griffiths, T. L. (2026). [WORKING TITLE] Discovering Psychological Representations using Language Language Models. {In Preparation} \href{}{[PDF Coming soon]}\\
+   \end{cvitems}}
+ 
+   \vspace{3mm}
